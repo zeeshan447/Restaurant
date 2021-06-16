@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="tab_text_1">Customer Register</string>
+    <string name="tab_text_2">Restaurant Register</string>
+    <string-array name="cities">
+
+        <item>Karachi</item>
+        <item>Lahore</item>
+        <item>Peshawar</item>
+        <item>Quetta</item>
+        <item>Islamabad</item>
+    </string-array>
+</resources>

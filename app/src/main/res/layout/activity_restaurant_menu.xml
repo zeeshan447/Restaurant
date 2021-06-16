@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantMenu"
+    android:background="@drawable/dashboard"
+    >
+    <TextView
+        android:id="@+id/txtaddmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Enter details of your menu"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        />
+    <ImageButton
+        android:id="@+id/food_image"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/txtaddmenu"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_camera"
+
+        />
+    <TextView
+        android:id="@+id/upload_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/food_image"
+        android:text="Upload Image Of food"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <EditText
+        android:id="@+id/food_name"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/upload_image"
+        android:background="@drawable/edit_round"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:hint="Enter Name Of Dish"
+        />
+
+    <EditText
+        android:id="@+id/food_description"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/food_name"
+        android:background="@drawable/edit_round"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Description Of Dish"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/food_price"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/food_description"
+        android:background="@drawable/edit_round"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Price Of Dish"
+        android:textAlignment="center"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/food_uploadbutton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food_price"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_round"
+        android:text="Upload"
+        android:textColor="@color/white"
+        />
+
+
+
+</RelativeLayout>
